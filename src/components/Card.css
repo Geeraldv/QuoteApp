@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope';
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    height: 335px;
+    width: 545px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 10px 10px 10px hsl(219, 23%, 14%);
+}
+
+.quote{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.quote p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: hsl(150, 100%, 66%);
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+
+.quote .textCard{
+    height: 150px;
+    width: 480px ;
+    margin:0px 0px 10px 0px;
+}
+
+.quote .textCard h1{
+    font-size: 28px;
+    margin:0px 15px 0px 15px;
+}
+
+.quote .ImgLine{
+    margin: 10px 0px 20px 0px;
+}
+
+.quote button{
+    display: block;
+    background: none;
+    background-color: hsl(150, 100%, 66%);
+    width: 70px;
+    height: 70px;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.quote button:hover{
+    box-shadow: 3px -2px 26px 8px  hsla(150, 100%, 66%, 0.364) ;
+}
+
+
+@media screen and (max-width:500px){
+    /*.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: hsl(218, 23%, 16%);
+    } */
+    
+
+    .card{
+        width: 342px;
+        height: 318px;
+    }
+    .quote{
+        width: 330px;
+        height: 140px;
+    }
+
+    .quote .textCard{
+        width: 330px;
+        height: 140px;
+        margin: 0px 0px 0px 0px;
+    }
+    .quote .textCard h1{
+        font-size: 19px;
+    }
+    
+    .ImgLine{
+        width: 88%;
+        height: 10%;
+        margin:10px 0px 13px 0px;
+    }
+}
+
+
+
